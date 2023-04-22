@@ -14,21 +14,20 @@ export class StudentDataService {
   public getMockedStudents(): Student[] {
     let students: Student[] = [
       {
-        Name : "Alice",
-        Age: 21,
-        Hobbies: ["test"]
+        name : "Alice",
+        age: 21,
+        hobbies: ["test"]
       },
       {
-        Name: "Bob",
-        Age: 22,
-        Hobbies: ["test"]
+        name: "Bob",
+        age: 22,
+        hobbies: ["test"]
       }
     ];
     return students;
   }
 
   public getStudents(): Observable<StudentSummary> {
-    debugger;
     return this.httpClient.get<StudentSummary>('https://localhost:44363/data');
   }
 

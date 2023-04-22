@@ -1,9 +1,9 @@
 import { Student } from "./Student";
 
 export class StudentSummary{
-    public Data: Student[];
+    public students: Student[];
 
     constructor(data: Student[]){
-        this.Data = data;
+        this.students = data;
     }
 }
