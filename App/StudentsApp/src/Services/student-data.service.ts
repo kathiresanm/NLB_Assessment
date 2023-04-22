@@ -28,6 +28,7 @@ export class StudentDataService {
   }
 
   public getStudents(): Observable<StudentSummary> {
+    debugger;
     return this.httpClient.get<StudentSummary>('https://localhost:44363/data');
   }
 
