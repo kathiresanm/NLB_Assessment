@@ -17,12 +17,12 @@ The Solution consists of
 
 
 3) Alternatively Use `dotnet build` command to build the application and `dotnet run` to  run the API
-4) This should bring up the `Open API (Swagger UI) page as below`
+4) This should bring up the `Open API (Swagger UI)` page as below
 
 ![image](https://user-images.githubusercontent.com/6443053/233757492-a0492360-e612-4039-b2b2-f09851f80b35.png)
 
 
-##Students.App:
+## Students.App:
 
 1) Please ensure below versions for Angular CLI, Node and npm is isntalled in the machine where the App is to be build.
 
